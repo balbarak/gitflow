@@ -3,8 +3,7 @@ var app = builder.Build();
 
 app.MapGet("/", () =>
 {
-
-    return "Ss";
+    return "It's Work !";
 });
 
 app.Run();
