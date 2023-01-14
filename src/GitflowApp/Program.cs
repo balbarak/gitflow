@@ -7,6 +7,7 @@ app.MapGet("/", () =>
     //another bug !
     //bug twoo !
     //Oky
+    //well done bro !
     return "Bug has been fixed !";
 });
 
