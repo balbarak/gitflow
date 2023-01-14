@@ -37,7 +37,7 @@ branches:
     increment: Patch
     prevent-increment-of-merged-branch-version: true
     track-merge-target: false
-    source-branches: [  'release' ]
+    source-branches: [ 'release' ]
     tracks-release-branches: false
     is-release-branch: false
     is-mainline: true
