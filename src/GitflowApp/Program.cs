@@ -3,6 +3,7 @@ var app = builder.Build();
 
 app.MapGet("/", () =>
 {
+    // done bro !
     return "Bug has been fixed !";
 });
 
