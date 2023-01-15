@@ -12,6 +12,7 @@ app.MapGet("/", () =>
     //sadf
     //sdfs
     //sdfsadf
+    //ok
 });
 
 app.Run();
