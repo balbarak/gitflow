@@ -7,6 +7,7 @@ app.MapGet("/", () =>
 {
     // This is a mainline !
     //increment release !
+    //ok
     return "Bug has been fixed !";
 });
 
