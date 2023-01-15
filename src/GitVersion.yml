@@ -19,7 +19,7 @@ update-build-number: true
 branches:
   main:
     regex: ^master$|^main$
-    mode: ContinuousDelivery
+    mode: Mainline
     tag: ''
     increment: Patch
     prevent-increment-of-merged-branch-version: true
