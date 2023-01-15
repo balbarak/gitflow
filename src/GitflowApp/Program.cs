@@ -6,6 +6,7 @@ var app = builder.Build();
 app.MapGet("/", () =>
 {
     // This is a mainline !
+    //increment release !
     return "Bug has been fixed !";
 });
 
