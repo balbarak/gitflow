@@ -5,6 +5,7 @@ branches:
         tracks-release-branches: true
         prevent-increment-of-merged-branch-version: false
         track-merge-target: true
+        increment: Patch
         is-mainline: false
     release:
         regex: ^releases?[/-]
