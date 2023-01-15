@@ -6,7 +6,7 @@ branches:
         increment: Patch
         prevent-increment-of-merged-branch-version: true
         track-merge-target: false
-        source-branches: [ 'develop', 'release' ]
+        source-branches: [ 'release','develop']
         tracks-release-branches: true
         is-release-branch: true
         is-mainline: true
