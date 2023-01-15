@@ -5,14 +5,8 @@ var app = builder.Build();
 
 app.MapGet("/", () =>
 {
+    //opbla !
     return "Bug has been fixed !";
-    //wesdfasdaf
-    //SADSADF
-    //asdfasdf
-    //sadf
-    //sdfs
-    //sdfsadf
-    //sdf
 });
 
 app.Run();
