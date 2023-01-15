@@ -1,4 +1,4 @@
-mode: ContinuousDelivery
+mode: Mainline
 assembly-versioning-scheme: MajorMinorPatch
 assembly-file-versioning-scheme: MajorMinorPatch
 assembly-informational-format: '{InformationalVersion}'
@@ -19,7 +19,6 @@ update-build-number: true
 branches:
   main:
     regex: ^master$|^main$
-    mode: Mainline
     tag: ''
     increment: Patch
     prevent-increment-of-merged-branch-version: true
