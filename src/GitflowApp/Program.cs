@@ -5,7 +5,7 @@ var app = builder.Build();
 
 app.MapGet("/", () =>
 {
-    //opbla !
+    // This is a mainline !
     return "Bug has been fixed !";
 });
 
