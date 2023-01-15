@@ -5,6 +5,7 @@ var app = builder.Build();
 
 app.MapGet("/", () =>
 {
+    //sdf
     return "Bug has been fixed !";
 });
 
