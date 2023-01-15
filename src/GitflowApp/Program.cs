@@ -7,6 +7,7 @@ app.MapGet("/", () =>
 {
     return "Bug has been fixed !";
     //sdaf
+    //sdf
 });
 
 app.Run();
