@@ -6,7 +6,7 @@ var app = builder.Build();
 
 app.MapGet("/", () =>
 {
-    return "Sfsddsf";
+    return "Ok";
 });
 
 app.Run();
