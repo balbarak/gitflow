@@ -1,5 +1,24 @@
 mode: Mainline
-branches: {}
+branches: 
+    develop:    
+        regex: ^dev(elop)?(ment)?$
+        tracks-release-branches: true
+        prevent-increment-of-merged-branch-version: false
+        track-merge-target: true
+        is-mainline: false
+    release:
+        regex: ^releases?[/-]
+        mode: ContinuousDelivery
+        tag: beta
+        increment: None
+        prevent-increment-of-merged-branch-version: true
+        track-merge-target: false
+        source-branches: [ 'develop', 'main', 'support', 'release' ]
+        tracks-release-branches: false
+        is-release-branch: true
+        is-mainline: false
+        pre-release-weight: 30000
+
 ignore:
   sha: []
 merge-message-formats: {}
