@@ -16,7 +16,7 @@ branches:
         tracks-release-branches: true
         prevent-increment-of-merged-branch-version: false
         track-merge-target: true
-        increment: Patch
+        increment: Major
         is-mainline: false
     release:
         regex: ^releases?[/-]
