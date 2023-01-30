@@ -1,6 +1,7 @@
 mode: Mainline
 branches: 
     main:
+        mode: ContinuousDelivery
         regex: ^master$|^main$
         tag: ''
         increment: Patch
@@ -10,7 +11,7 @@ branches:
         tracks-release-branches: false
         is-release-branch: true
         is-mainline: true
-        pre-release-weight: 55000
+        #pre-release-weight: 55000
     develop:    
         regex: ^dev(elop)?(ment)?$
         tracks-release-branches: true
