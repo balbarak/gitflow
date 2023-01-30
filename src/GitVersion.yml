@@ -1,6 +1,5 @@
 mode: Mainline
 
-
 branches: 
     main:
         mode: ContinuousDelivery
