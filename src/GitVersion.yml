@@ -8,9 +8,9 @@ branches:
         increment: Patch
         prevent-increment-of-merged-branch-version: true
         track-merge-target: false
-        source-branches: [ 'develop','release']
-        tracks-release-branches: false
-        is-release-branch: true
+        #source-branches: [ 'develop','release']
+        tracks-release-branches: true
+        is-release-branch: false
         is-mainline: true
         #pre-release-weight: 55000
     develop:    
