@@ -10,4 +10,6 @@ app.MapGet("/", () =>
     return "Ok";
 });
 
+
+
 app.Run();
